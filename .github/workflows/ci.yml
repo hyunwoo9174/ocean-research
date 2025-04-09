@@ -1,0 +1,21 @@
+name: CI Workflow for Ocean research
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Build Docker Image
+        run: docker build -t ocean-research-env .
+
+      - name: Run Tests
+        run: docker run ocean-research-env python3 test_script.py
+
