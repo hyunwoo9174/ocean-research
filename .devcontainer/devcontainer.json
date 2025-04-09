@@ -1,6 +1,6 @@
 {
 	"name": "Ocean Research Environment",
 	"build": {
-		"dockerfile": "../docDockerfile"	
+		"dockerfile": "../Dockerfile"	
 	}
 }
