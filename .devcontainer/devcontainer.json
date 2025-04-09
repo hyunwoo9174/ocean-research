@@ -1,13 +1,15 @@
 {
 	"name": "Ocean Research Environment",
 	"build": {
-		"dockerfile": "Dockerfile"
+		"dockerfile": "../Dockerfile"
 	},
-	"settings": {},
-	"extensions": [
-		"ms-python.python",
-		"hansec.fortran",
-		"ms-vscode.remote-containers"
+	"customizations": {
+	    "settings": {},
+	    "extensions": [
+		    "ms-python.python",
+		    "hansec.fortran",
+		    "ms-vscode.remote-containers"
 	]
+}
 }
 

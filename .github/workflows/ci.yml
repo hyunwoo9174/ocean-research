@@ -1,4 +1,4 @@
-name: CI Workflow for Ocean research
+name: CI Workflow for Ocean Research
 
 on:
   push:
