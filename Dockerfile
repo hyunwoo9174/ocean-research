@@ -4,7 +4,6 @@ FROM ubuntu:latest
 # Update and install system-wide programs
 RUN apt-get update && apt-get install -y \
     gfortran \
-    texlive-science \
     octave \
     wget \
     git
