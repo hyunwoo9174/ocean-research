@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Conda environments
+*.conda
+*.env
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Docker-related files
+*.pid
+*.tar
+*.bak
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Python virtual environments
+.venv/
+
+# Raw data files
+*.csv
+*.json
+*.xml
+*.txt
+*.xlsx
+*.parquet
+*.pickle
+*.hdf5
+*.netcdf
+*.feather
+*.tsv
+*.nc
+# Temporary files
+*.tmp
+*.temp
+*.log
+# Backup files
+*.bak
+*.old
+# VSCode settings
+.vscode/
+# Dev container files
+.devcontainer/
+# LaTeX files
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.log
+*.out
+*.pdf
+*.toc
